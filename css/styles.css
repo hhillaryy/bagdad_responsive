@@ -1,14 +1,20 @@
 body {
-background-color: #490000;
+background-color: #000;
+background-image: url('../img/bg.jpg');
+background-repeat: no-repeat;
 color: #fff;
 }
+/*
+.container-fluid {
+  max-width:
+}*/
 
 .panel {
 background: transparent;
 }
 
-.article {
-  margin-left: 175px;
+header h1 img {
+  max-width: 80%;
 }
 
 .nav {
@@ -17,7 +23,7 @@ background: transparent;
 
 .navbar {
   padding: 0 20px;
-  background-color: #241509;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .dates {
@@ -29,12 +35,13 @@ background: transparent;
   padding: 20px 0;
 }
 
-.marquee {
-  display: none;
+.dropdown {
+  margin-bottom: 20px;
 }
 
+
 #tickets {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.1);
   width: 90%;
   margin: auto;
   border: 1px solid white;
@@ -64,15 +71,23 @@ background: transparent;
   margin-top: 0;
   text-align: center;
 }
+.article {
+  border-bottom: 1px solid white;
+  min-height: 250px;
+}
+
+.article img {
+  margin-right: 15px;
+}
 
 .fakeButton {
   display: block;
-  width: 30%;
+  width: 25%;
   background: #DA7E25;
   color: #fff;
   text-shadow: none;
   text-align: center;
-  margin: 3%;
+  margin: 3% 3% 175px 175px;
   padding: 5px;
   border-bottom: 5px solid #AE651E;
 }
@@ -80,4 +95,39 @@ background: transparent;
 
 
 
+.f-two a {
+  display: block;
+  color: white;
+}
+
+.f-three a {
+  display: block;
+  color: white;
+}
+
+
+.footer {
+  background: linear-gradient(#522109, #000);
+  height: auto;
+  margin-top: 25px;
+}
+
+@media screen and (min-width:481px) {
+
+  header h1 img {
+    max-width: 100%;
+  }
+
+  .f-one, .f-two, .f-three {
+    float: left;
+    width: 30.66%;
+  }
+
+  .f-two {
+    margin: 0 4%;
+  }
+
+  .fakeButton {
+    margin: 3% 3% 3% 175px;
+  }
 }

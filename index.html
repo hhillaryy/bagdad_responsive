@@ -11,33 +11,35 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <div class="container-fluid">
       <div class="row">
         <header>
           <div class="navbar navbar-inverse navbar-static-top">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <h1 class="pull-left"><img src="img/logo.jpg" alt="logo"/></h1>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav pull-right" role="navigation">
-                <li><a href="#">Link1</a></li>
-                <li><a href="#">Link2</a></li>
-                <li><a href="#">Link3</a></li>
-              </ul>
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <h1 class="pull-left"><img src="img/logo.jpg" alt="logo"/></h1>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav pull-right" role="navigation">
+                  <li><a href="#">Link1</a></li>
+                  <li><a href="#">Link2</a></li>
+                  <li><a href="#">Link3</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </header>
       </div>
+    <div class="container">
       <div class="row">
-        <div class="col-sm-7 col-sm-offset-1 col-sm-push-3">
+        <div class="col-sm-8 col-sm-push-4">
           <div class="row-fluid">
             <div class="showtimes panel panel-default clearfix">
-              <div class="col-sm-6">
+              <div class="col-sm-6 ">
                 <h3>Movie Showtimes</h3>
                 <div class="dropdown">
                 <button class="btn dates btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Showtimes
@@ -70,26 +72,58 @@
               </div>
             </div>
           </div>
-          <div class="row-fluid clearfix">
+          <div class="row-fluid clearfix separation">
             <h2>Now Playing</h2>
-            <img class="pull-left img-responsive" src="img/hailcaesar.jpg" alt="poster" />
+
             <div class="article">
-              <h3>Hail, Ceasar! (PG-13)</h3>
+              <img class="pull-left img-responsive" src="img/hailcaesar.jpg" alt="poster" />
+              <h4>Hail, Ceasar! (PG-13)</h4>
               <a class="fakeButton" href="#">View Trailer</a>
-              <a href="#"></a>
-              <a href="#"></a>
-              <p>
-                The film's description goes here.
-              </p>
+              <a href="#">fdsfafdsafdsaf</a>
+              <br>
+              <a href="#">dfsfdsfdasfs</a>
+              <p>The film's description goes here.</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-3 col-sm-pull-7">
-          <img class="img-responsive marquee" src="img/marquee.jpg" alt="bagdad sign"/>
+        <div class="col-sm-4 col-sm-pull-8">
+          <img class="img-responsive hidden-xs" src="img/marquee.jpg" alt="bagdad sign"/>
           <h3>About the Bagdad</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer clearfix">
+      <div class="container">
+        <div class="f-one">
+          <h4>McMenamins Bagdad Theater</h4>
+          <p>3702 SE Hawthorne Blvd
+            <br>
+            Portland, OR 97214
+            <br>
+            (503) 467-7521
+          </p>
+        </div>
+        <div class="f-two">
+          <h4>McMenamins Bagdad</h4>
+          <a href="#">About the Bagdad</a>
+          <a href="#">Bagdad Pub</a>
+          <a href="#">Backstage Bar</a>
+          <br>
+          <a href="#">McMenamins Home</a>
+        </div>
+        <div class="f-three">
+          <h4>Other McMenamin's Movie Theaters</h4>
+          <a href="#">Edgefield Power Station</a>
+          <a href="#">Grand Lodge Theater</a>
+          <a href="#">Kennedy School</a>
+          <a href="#">Mission Theater</a>
+          <a href="#">Old St. Francis Theater</a>
+          <a href="#">Olympic Club Theater</a>
+          <br>
+          <a href="#">View All McMenamin's Theaters</a>
         </div>
       </div>
     </div>
